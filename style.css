@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', 
+        Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    background-color:white;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    text-align: center;
+    background-color: cornflowerblue;
+    color: whitesmoke;
+    padding: 1rem 0;
+}
+
+input, 
+button {
+    outline: none;
+    border: 1px solid black;
+    font-family: inherit;
+    padding: 10px, 20px;
+    border-radius: 5px;
+    background-color: ghostwhite;
+    color: black;
+    font-weight: 600;
+    font-size: medium;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-bottom: 1rem;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.task-form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.task-list {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+
+.task-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: whitesmoke;
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.task-item button {
+    background-color: chartreuse;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    align-items: center;
+
+    cursor: pointer;
+}
+
+.completed{
+    text-decoration: line-through;
+    background-color: chartreuse;
+}
